@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_personal"
+            android:icon="@drawable/personal"
+            android:title="Personal" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/business"
+            android:title="Business" />
+        <item
+            android:id="@+id/nav_career"
+            android:icon="@drawable/career"
+            android:title="Career" />
+        <item
+            android:id="@+id/nav_investors"
+            android:icon="@drawable/investo"
+            android:title="Investors" />
+        <item
+            android:id="@+id/nav_mtnmomo"
+            android:icon="@drawable/momopay"
+            android:title="MTN MOMO" />
+        <item
+            android:id="@+id/nav_insuarane"
+            android:icon="@drawable/insuarance"
+            android:title="Insuarance" />
+    </group>
+</menu>

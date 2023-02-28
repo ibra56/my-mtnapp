@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_business"
+        android:name="com.example.navapp.Bussiness"
+        android:label="Business"
+        tools:layout="@layout/fragment_bussiness" />
+    <fragment
+        android:id="@+id/nav_career"
+        android:name="com.example.navapp.Career"
+        android:label="Career"
+        tools:layout="@layout/fragment_career" />
+
+    <fragment
+        android:id="@+id/nav_investors"
+        android:name="com.example.navapp.Investors"
+        android:label="Investors"
+        tools:layout="@layout/fragment_investors" />
+    <fragment
+        android:id="@+id/nav_mtnmomo"
+        android:name="com.example.navapp.MTNMOMO"
+        android:label="MTNMOMO"
+        tools:layout="@layout/fragment_m_t_n_m_o_m_o" />
+    <fragment
+        android:id="@+id/nav_personal"
+        android:name="com.example.navapp.Personal"
+        android:label="Personal"
+        tools:layout="@layout/fragment_personal" />
+    <fragment
+        android:id="@+id/nav_insuarane"
+        android:name="com.example.navapp.Insuarance"
+        android:label="Insuarance"
+        tools:layout="@layout/fragment_insuarance" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.navapp.ui.gallery.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.navapp.ui.slideshow.SlideshowFragment"
+        android:label="Slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+</navigation>
